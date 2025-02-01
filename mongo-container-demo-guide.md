@@ -48,6 +48,7 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS        
 
 # We go further and confirm the system is running:
 $ docker logs demo-mongodb | head
+
 about to fork child process, waiting until server is ready for connections.
 forked process: 27
 
