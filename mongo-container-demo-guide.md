@@ -80,36 +80,7 @@ d7bbdc485c78   mongo-express   "/sbin/tini -- /dock…"   4 seconds ago    Up 4 
 # Verify status of mongo-express container.
 $ docker logs mongo-express
 Waiting for mongo:27017...
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-Sun Jan 26 12:47:32 UTC 2025 retrying to connect to mongo:27017 (2/10)
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-Sun Jan 26 12:47:33 UTC 2025 retrying to connect to mongo:27017 (3/10)
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-Sun Jan 26 12:47:34 UTC 2025 retrying to connect to mongo:27017 (4/10)
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-Sun Jan 26 12:47:35 UTC 2025 retrying to connect to mongo:27017 (5/10)
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-Sun Jan 26 12:47:36 UTC 2025 retrying to connect to mongo:27017 (6/10)
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-Sun Jan 26 12:47:37 UTC 2025 retrying to connect to mongo:27017 (7/10)
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-Sun Jan 26 12:47:38 UTC 2025 retrying to connect to mongo:27017 (8/10)
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-Sun Jan 26 12:47:39 UTC 2025 retrying to connect to mongo:27017 (9/10)
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-Sun Jan 26 12:47:40 UTC 2025 retrying to connect to mongo:27017 (10/10)
-/docker-entrypoint.sh: line 15: mongo: Name does not resolve
-/docker-entrypoint.sh: line 15: /dev/tcp/mongo/27017: Invalid argument
-No custom config.js found, loading config.default.js
+
 Welcome to mongo-express 1.0.2
 ------------------------
 
