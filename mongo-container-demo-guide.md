@@ -31,9 +31,8 @@ Reference: https://hub.docker.com/_/mongo/
 6. Identify docker image to use which in this case is named mongo.
 7. For data storage you can create a local folder on the host system that is running docker e.g. /home/<username>/datadir. 
 
-# Please note for Windows and MacOS reference memory mapped files issue to avoid data corruption. A posted alternative is to use a local named volume reference "docker volumes".
 
-# This is just a demonstration so the example I provided so a typical data directory will be utilized.
+# This is just a demonstration so the example I provided so a typical data directory will be utilized versus "docker volumes".
 To add a basic folder just use the "-v" option for volume and a path to a folder that you have permission to write to on your localhost filesystem e.g. "-v /datadir:/data/db"
 
 docker run -d -p 27017:27017 --name demo-mongodb \
