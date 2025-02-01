@@ -61,7 +61,7 @@ forked process: 27
 {"t":{"$date":"2025-01-26T12:13:25.247+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":27,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"12068f916903"}}
 
 # Create a mongo-express container to connect to the mongo db container.
-# Reference: https://hub.docker.com/_/mongo-express/
+Reference: https://hub.docker.com/_/mongo-express/
 
 docker run -d \
 -p 8081:8081 \
