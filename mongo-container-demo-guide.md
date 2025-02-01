@@ -1,4 +1,4 @@
- Steps for docker demonstration.
+# Steps for docker demonstration.
 
 Download mongo image from docker hub.
 $ docker pull mongo
